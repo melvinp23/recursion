@@ -1,2 +1,3 @@
-# recursion
-An exercise using recursion methods.
+# Project: Recursion
+
+A project using recursion methods.
