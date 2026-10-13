@@ -19,6 +19,8 @@
 // console.log(fibs(8));
 
 function fibsRec(n) {
+	console.log('This was printed recursively');
+
 	if (n <= 0) {
 		return [];
 	}
@@ -37,7 +39,7 @@ function fibsRec(n) {
 	return sequence;
 }
 
-console.log(fibsRec(1));
+// console.log(fibsRec(1));
 console.log(fibsRec(8));
 
 module.exports = fibsRec;
